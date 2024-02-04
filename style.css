@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Love+Ya+Like+A+Sister&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+html {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    max-width: 1360px;
+    margin: auto;
+    padding: 1.5rem 3rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: "Love Ya Like A Sister", cursive;
+    font-size: 3rem;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    color: #FFEAD9E4;
+}
+
+.github {
+    color: #5488b6fe;
+    font-weight: 600;
+    font-style: bold;
+    text-transform: uppercase;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.principal {
+    background: #08042ae0;
+}
+
+.hero {
+    max-width: 1360px;
+    height: 60vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10rem;
+
+    padding: 0 2rem;
+    margin: auto;
+
+    overflow: clip;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.up-text-lilac {
+    font-family: Epilogue;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #b996ce;
+}
+
+.up-text-blue {
+    font-family: Epilogue;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #96B5CE;
+}
+
+.up-text-pink {
+    font-family: Epilogue;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ce96bb;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-size: 3.5rem;
+    width: 800;
+}
+
+hr {
+    border-color: #96B5CE;
+}
+
+.hero-subtitle {
+    color: #FFEAD9E4;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.hero-images-container {
+    max-width: 55%;
+    column-count: 4;
+    column-gap: 1rem;
+    margin: -1rem;
+}
+
+.hero-images-container > figure > img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.button-container {
+    width: 100%;
+    max-width: 1360px;
+    margin: auto;
+    transform: translate(0, -50%);
+}
+
+button {
+    border: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+
+    background: #5488b6fe;
+}
+
+.recipes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    max-width: 1360px;
+    padding: 3rem 2rem;
+    margin: auto;
+}
+
+.recipes-head {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: justify;
+}
+
+.recipes-title {
+    font-family: Montserrat;
+    font-size: 2rem;
+    width: 700;
+}
+
+.recipes-subtitle {
+    font-family: Inter;
+    font-size: 1rem;
+    width: 400;
+}
+
+.recipes-card-container {
+    display: flex;
+    flex-direction: row;
+    column-count: 3;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-around;
+}
+
+.recipes-card {
+    background: #242424;
+    padding: 2rem;
+
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+    width: 40%;
+}
+
+.recipes-card-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.recipes-card-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.recipe-card-title {
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    width: 700;
+}
+
+.recipe-season {
+    color: #FFEAD9E4;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.card-describle {
+    font-family: Inter;
+    font-size: 1rem;
+    width: 400;
+}
+
+.recipe-autor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.recipe-autor > img {
+    border-radius: 50%;
+    width: 5rem;
+    margin: 0 2rem;
+}
+
+.recipe-autor-name {
+    color: #FFEAD9E4;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+footer {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+
+    background: #08042ae0;
+}
+
+.footer-copy{
+    color: #FFEAD9E4;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.footer-autor {
+    color: #5b5a5ae4;
+    font-family: Inter;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
