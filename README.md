@@ -4,7 +4,7 @@ Este projeto foi desenvolvido para compartilhar receitas familiares e histórias
 
 ## Projeto em desenvolvimento para imortalizar as receitas que fazem parte da minha família há gerações ✨
 
-## 1. Desenvolvimento Front-End com HTML, CSS e JavaScript
+## 1. Desenvolvimento Front-End com HTML e CSS
 
 ### HTML
 O uso do HTML (Hypertext Markup Language) é fundamental para estruturar a página de forma semântica. Por exemplo, a criação de seções como "hero", "recipes" e "footer" é feita com elementos HTML adequados. Isso permite uma navegação clara e acessível, tanto para os usuários quanto para mecanismos de busca.
@@ -14,9 +14,6 @@ O design visual do site é construído através do CSS (Cascading Style Sheets).
 
 ### Responsividade
 O uso de **flexbox** e **grid layout** no CSS, além de um design que se adapta a diferentes tamanhos de tela, é um aprendizado importante para garantir que o site seja acessível e agradável de usar em dispositivos móveis e desktops. A responsividade é essencial em projetos modernos de desenvolvimento web.
-
-### JavaScript
-Embora o código HTML e CSS já seja funcional, a interação com o usuário pode ser aprimorada com o uso de **JavaScript**, que é a linguagem de programação que possibilita a manipulação dinâmica do conteúdo na página. No caso do projeto, um exemplo disso seria a adição de botões interativos que possam expandir ou ocultar seções de receitas ou navegar entre as páginas de forma mais fluida.
 
 ## 2. Aprendizado de Usabilidade e Experiência do Usuário (UX)
 
@@ -30,12 +27,7 @@ A criação de um site com um foco em uma experiência de usuário amigável tam
 - **Escolha de Cores e Tipografia**: As cores e as fontes utilizadas no site são fundamentais para transmitir uma sensação de aconchego e familiaridade. Ao usar tons de lilás, azul e rosa, o projeto cria uma atmosfera calorosa e amorosa. A escolha de fontes como "Love Ya Like A Sister" para o logo e "Montserrat" para os títulos dá uma identidade única e conecta o tema com o visual.
 - **Imagens**: O uso de imagens de alta qualidade, como fotos das receitas, é um elemento importante para envolver o visitante emocionalmente. As imagens não apenas complementam o conteúdo, mas também transmitem o valor emocional e cultural de cada receita compartilhada.
 
-## 4. Organização e Apresentação do Conteúdo
-
-- **Estrutura e Hierarquia do Conteúdo**: A forma como o conteúdo foi estruturado em **cards de receitas**, com título, descrição, autor e foto, permite que as informações sejam apresentadas de maneira clara e organizada. Isso é uma boa prática de design e programação, pois facilita a leitura e a compreensão.
-- **Adaptação ao Tema**: A criação de seções como “Love”, “Childhood”, e “Ice or no” para diferentes receitas é um exemplo de como o conteúdo pode ser personalizado para refletir a história e os sentimentos da família. Isso cria uma conexão mais forte com o usuário, ao mesmo tempo em que mantém uma estrutura programática sólida.
-
-## 5. Conexão Emocional e Sentimental
+## 4. Conexão Emocional e Sentimental
 
 Ao longo de todo o projeto, não é apenas a codificação e o design que estão em foco. O verdadeiro valor está na maneira como a programação consegue unir memória afetiva, tradição e histórias familiares.
 
